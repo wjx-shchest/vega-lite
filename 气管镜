@@ -1,0 +1,16 @@
+{
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "系统", "type": "nominal"},
+    "y": {"field": "诊断率", "type": "quantitative"},
+    "color": {"field": "麻醉时间", "type": "ordinal"}
+  },
+  "data": {
+    "values": [
+      {"系统": "SS-RAB", "诊断率": 82, "麻醉时间": "<30min"},
+      {"系统": "SS-RAB", "诊断率": 68, "麻醉时间": ">45min"},
+      {"系统": "EMN-RAB", "诊断率": 77, "麻醉时间": "<30min"},
+      {"系统": "EMN-RAB", "诊断率": 63, "麻醉时间": ">45min"}
+    ]
+  }
+}
